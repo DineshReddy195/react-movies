@@ -11,7 +11,7 @@ function Movies() {
     setSearching(true);
     try {
       const response = await fetch(
-        `https://www.omdbapi.com/?s=${query}&apikey=7e1cc861`
+        `https://www.omdbapi.com/?s=${query}&apikey=bf19413a`
       );
       const data = await response.json();
       setmessage(null);
